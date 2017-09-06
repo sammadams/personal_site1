@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../process/sass/variables.css",
+	"sources": [
+		"../process/sass/variables.scss"
+	],
+	"sourcesContent": [
+		"// Load Fonts\r\n\r\n@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);\r\n\r\n$offwhite:    #EEE8D6;\r\n$darkblue:    #022933;\r\n$yellow:      #FFBA00;\r\n$blue:        #0076A3;\r\n$green:       #548C27;\r\n$orange:      #F39856;\r\n$red:         #D14348;\r\n$purple:      #6D73C2;\r\n\r\n\r\n$color-main: $darkblue;\r\n$color-backgrounds: $offwhite;\r\n$color-headlines: $red;\r\n\r\n\r\n$font-main: Merriweather, Helvetica, sans-serif;\r\n$font-highlight: Helvetica, sans-serif;\r\n\r\n//breakpoints\r\n\r\n$small:\t\t450px;\r\n$medium:\t760px;\r\n$large:\t\t1200px;\r\n"
+	],
+	"mappings": "AAEA,OAAO,CAAC,mGAAI",
+	"names": []
+}

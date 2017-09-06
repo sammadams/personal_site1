@@ -1,0 +1,33 @@
+// Load Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Nunito+Sans|Great+Vibes|Quicksand|Roboto|Rubik');
+
+$offwhite:    #EEE8D6;
+$gray:		  #909090;
+$darkblue:    #022933;
+$yellow:      #FFBA00;
+$blue:        #0076A3;
+$green:       #548C27;
+$orange:      #F39856;
+$red:         #D14348;
+$purple:      #6D73C2;
+$white:       #FFFFFF;	
+
+$color-main: $darkblue;
+$color-backgrounds: $offwhite;
+$color-headlines: $red;
+
+$font-title: 'Quicksand', sans-serif;
+$font-bold: 'Rubik', sans-serif;
+$font-main: 'Nunito Sans', 'Roboto', sans-serif;
+$font-typeset: 'Inconsolata', monospace;
+$font-sig: 'Great Vibes', serif;
+
+$link-color: $blue;
+$primary-color: $color-main;
+
+//breakpoints
+
+$small:		400px;
+$medium:	700px;
+$large: 	1000px;

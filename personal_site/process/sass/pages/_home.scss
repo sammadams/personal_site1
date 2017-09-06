@@ -1,0 +1,52 @@
+											//large screen display
+figure.div-home-photo {
+		display: inline-block;
+		width: 45%;
+		float: left;
+		img {
+				width: 300px;
+				float: right;
+				margin: 20px;
+				border-radius: 10em;
+				box-shadow: 1px 1px 30px 1px $gray;
+		}
+	}
+article.div-welcome-letter {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	padding: 15px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 10px 5px $offwhite;
+	}
+
+											//tablet and mobile display	
+@media screen and (max-width:$large){
+	header{
+		h1 {
+		font-size: 36px;
+		margin: 5px 0px;
+		}
+		h3 {
+			display: none
+		}	
+	}
+	figure.div-home-photo {
+		display: block;
+		width:90%;
+		margin: 0% 5%;
+		img {
+				display: block;
+				width: 60%;
+				margin: 5% 20%;
+				float: none;
+				border-radius: 10em;
+			}
+	}
+	article.div-welcome-letter{
+		display: block;
+		float: left;
+		width: 85%;
+		margin: 0% 5%;
+	}
+}

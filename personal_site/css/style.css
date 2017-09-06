@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Nunito+Sans|Great+Vibes|Quicksand|Roboto|Rubik");
+/* line 3, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 8, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+body, p, nav li, li {
+  font-size: 18px;
+}
+
+/* line 12, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+ol {
+  list-style-type: none;
+}
+
+/* line 16, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+nav li {
+  font-family: "Inconsolata", monospace;
+}
+
+/* line 20, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+.sig {
+  font-family: "Great Vibes", serif;
+  font-size: 30px;
+}
+
+/* line 25, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", "Roboto", sans-serif;
+}
+
+/* line 31, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 46px;
+  line-height: 1em;
+  margin-bottom: -5px;
+  margin-top: 15px;
+}
+
+/* line 39, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_base.scss */
+h2, h3, h4, h5, h6 {
+  font-family: "Rubik", sans-serif;
+  color: #022933;
+}
+
+/* line 1, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+/* line 4, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+header h3 {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1em;
+}
+
+/* line 12, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+.menu-button {
+  display: none;
+}
+
+/* line 18, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+#page-head {
+  line-height: 0.5em;
+}
+
+/* line 22, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+#active_link {
+  color: #D14348;
+}
+
+/* line 24, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+#active_link:hover {
+  color: white;
+}
+
+/* line 30, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+nav li {
+  font-size: 20px;
+  display: inline-block;
+  margin: 15px;
+}
+
+/* line 34, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+nav li a {
+  border-radius: 10em;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+/* line 38, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+nav li a:visited {
+  color: #0076A3;
+}
+
+/* line 41, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+nav li a:hover {
+  background-color: #0076A3;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in;
+  color: white;
+}
+
+/* line 51, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+footer {
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  float: none;
+  text-align: center;
+  border-top: thin solid black;
+}
+
+/* line 58, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+footer p {
+  font-size: 12px;
+}
+
+/* line 63, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+.dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 69, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  nav ol {
+    padding-left: 0;
+    margin: 0;
+    display: none;
+  }
+  /* line 72, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  nav li {
+    margin: 5px 0px;
+    padding: 0;
+  }
+  /* line 76, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  nav ol li {
+    display: block;
+  }
+  /* Style The Dropdown Button */
+  /* line 82, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropbtn {
+    background-color: #0076A3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0px;
+  }
+  /* line 92, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 96, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 90vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  /* line 104, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropdown-content a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    width: 90vw;
+  }
+  /* line 109, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropdown-content a:hover {
+    background-color: #022933;
+    color: #FFFFFF;
+  }
+  /* line 110, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* line 112, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/_nav.scss */
+  .dropdown:hover .dropbtn {
+    background-color: #0076A3;
+  }
+}
+
+/* line 2, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+figure.div-home-photo {
+  display: inline-block;
+  width: 45%;
+  float: left;
+}
+
+/* line 6, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+figure.div-home-photo img {
+  width: 300px;
+  float: right;
+  margin: 20px;
+  border-radius: 10em;
+  box-shadow: 1px 1px 30px 1px #909090;
+}
+
+/* line 14, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+article.div-welcome-letter {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 10px 5px #EEE8D6;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 26, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+  header h1 {
+    font-size: 36px;
+    margin: 5px 0px;
+  }
+  /* line 30, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+  header h3 {
+    display: none;
+  }
+  /* line 34, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+  figure.div-home-photo {
+    display: block;
+    width: 90%;
+    margin: 0% 5%;
+  }
+  /* line 38, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+  figure.div-home-photo img {
+    display: block;
+    width: 60%;
+    margin: 5% 20%;
+    float: none;
+    border-radius: 10em;
+  }
+  /* line 46, C:/Users/Samuel Adams/Documents/GitHub/projects/personal_site/process/sass/pages/_home.scss */
+  article.div-welcome-letter {
+    display: block;
+    float: left;
+    width: 85%;
+    margin: 0% 5%;
+  }
+}
+
+/*# sourceMappingURL=../../css/style.map */

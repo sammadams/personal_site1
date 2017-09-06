@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../process/sass/base.css",
+	"sources": [
+		"../process/sass/base.scss"
+	],
+	"sourcesContent": [
+		"// Load Fonts\r\n\r\n@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);\r\n\r\n$offwhite:    #EEE8D6;\r\n$darkblue:    #022933;\r\n$yellow:      #FFBA00;\r\n$blue:        #0076A3;\r\n$green:       #548C27;\r\n$orange:      #F39856;\r\n$red:         #D14348;\r\n$purple:      #6D73C2;\r\n\r\n\r\n$color-main: $darkblue;\r\n$color-backgrounds: $offwhite;\r\n$color-headlines: ;\r\n\r\n\r\n$font-main: Merriweather, Helvetica, sans-serif;\r\n$font-highlight: Helvetica, sans-serif;\r\n\r\n//breakpoints\r\n\r\n$small:\t\t450px;\r\n$medium:\t760px;\r\n$large:\t\t1200px;\r\n//base sass\r\n\r\nhtml {\r\n  font-size: 62.5%;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-size: 1.8rem;\r\n  font-family: $font-main;\r\n  color: $color-main;\r\n  background-color: $color-backgrounds;\r\n}\r\n\r\n.container {\r\n  width: 80%;\r\n  margin: 0 auto;\r\n}\r\n\r\n$color-headlines: $yellow;\r\n\r\nh1,h2,h3,h4,h5,h6 {\r\n  font-family: $font-highlight;\r\n}\r\n\r\n@for $item from 1 through length($color-headlines) {\r\n  h#{$item} {\r\n    color: nth($color-headlines, $item);\r\n  }\r\n}\r\n"
+	],
+	"mappings": "AAEA,OAAO,CAAC,mGAAI;;AA2BZ,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAM;CAClB;;;AAED,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,SAAS,EAAE,MAAO;EAClB,WAAW,EAlBD,YAAY,EAAE,SAAS,EAAE,UAAU;EAmB7C,KAAK,EAjCO,OAAO;EAkCnB,gBAAgB,EAnCJ,OAAO;CAoCpB;;;AAED,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,MAAO;CAChB;;;AAID,AAAA,EAAE,EAAC,AAAA,EAAE,EAAC,AAAA,EAAE,EAAC,AAAA,EAAE,EAAC,AAAA,EAAE,EAAC,AAAA,EAAE,CAAC;EAChB,WAAW,EA9BI,SAAS,EAAE,UAAU;CA+BrC;;;AAGC,AAAA,EAAE,CAAF;EACE,KAAK,EAjDK,OAAO;CAkDlB",
+	"names": []
+}

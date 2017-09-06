@@ -1,0 +1,42 @@
+//base sass
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, p, nav li, li {
+  font-size: 18px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+nav li {
+  font-family: $font-typeset;
+}
+
+.sig {
+  font-family: $font-sig;
+  font-size: 30px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: $font-main;
+}
+
+h1 {
+  font-family: $font-title;
+  font-size: 46px;
+  line-height: 1em;
+  margin-bottom: -5px;
+  margin-top: 15px;
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: $font-bold;
+  color: $color-main;
+}
